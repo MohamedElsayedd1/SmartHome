@@ -1,4 +1,4 @@
-# Smart Home Project with PIC18F46K29
+# Smart Home Project with PIC18F46K20
 
 This repository contains the source code and documentation for a Smart Home project implemented using a PIC18F46K29 microcontroller. The project utilizes various peripherals and communication protocols to create a smart environment.
 
