@@ -1,0 +1,45 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[v F431 `(v ~T0 @X0 0 tf ]
+"56 mcc_generated_files/24C01C/../../mcc_generated_files/i2c_client/i2c_master_example.h
+[; ;mcc_generated_files/24C01C/../../mcc_generated_files/i2c_client/i2c_master_example.h: 56: void I2C_Write1ByteRegister(i2c_address_t address, uint8_t reg, uint8_t data);
+[v _I2C_Write1ByteRegister `(v ~T0 @X0 0 ef3`uc`uc`uc ]
+"54
+[; ;mcc_generated_files/24C01C/../../mcc_generated_files/i2c_client/i2c_master_example.h: 54: uint8_t I2C_Read1ByteRegister(i2c_address_t address, uint8_t reg);
+[v _I2C_Read1ByteRegister `(uc ~T0 @X0 0 ef2`uc`uc ]
+"213 mcc_generated_files/24C01C/../../mcc_generated_files/i2c_client/i2c_master.h
+[; ;mcc_generated_files/24C01C/../../mcc_generated_files/i2c_client/i2c_master.h: 213: void (*MSSP_InterruptHandler)(void);
+[v _MSSP_InterruptHandler `*F431 ~T0 @X0 1 e ]
+"3 mcc_generated_files/24C01C/24C01C.c
+[; ;mcc_generated_files/24C01C/24C01C.c: 3: void EX_EEPROM_Write_Byte(uint8_t reg, uint8_t data){
+[v _EX_EEPROM_Write_Byte `(v ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _EX_EEPROM_Write_Byte ]
+[v _reg `uc ~T0 @X0 1 r1 ]
+[v _data `uc ~T0 @X0 1 r2 ]
+[f ]
+"4
+[; ;mcc_generated_files/24C01C/24C01C.c: 4:     I2C_Write1ByteRegister(0xA2, reg, data);
+[e ( _I2C_Write1ByteRegister (3 , , -> -> 162 `i `uc _reg _data ]
+"5
+[; ;mcc_generated_files/24C01C/24C01C.c: 5: }
+[e :UE 3 ]
+}
+"7
+[; ;mcc_generated_files/24C01C/24C01C.c: 7: uint8_t EX_EEPROM_Read_Byte(uint8_t reg){
+[v _EX_EEPROM_Read_Byte `(uc ~T0 @X0 1 ef1`uc ]
+{
+[e :U _EX_EEPROM_Read_Byte ]
+[v _reg `uc ~T0 @X0 1 r1 ]
+[f ]
+"8
+[; ;mcc_generated_files/24C01C/24C01C.c: 8:     uint8_t received_data = I2C_Read1ByteRegister(0xA3, reg);
+[v _received_data `uc ~T0 @X0 1 a ]
+[e = _received_data ( _I2C_Read1ByteRegister (2 , -> -> 163 `i `uc _reg ]
+"9
+[; ;mcc_generated_files/24C01C/24C01C.c: 9:     return received_data;
+[e ) _received_data ]
+[e $UE 4  ]
+"10
+[; ;mcc_generated_files/24C01C/24C01C.c: 10: }
+[e :UE 4 ]
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>Smart Home</name>
+            <creation-uuid>91c1217f-ec8e-42f4-a0b1-ea011bfa78de</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>mcc_generated_files/I2C</sourceRootElem>
+                <sourceRootElem>mcc_generated_files/DS1307</sourceRootElem>
+                <sourceRootElem>mcc_generated_files/i2c_client</sourceRootElem>
+                <sourceRootElem>24C01C</sourceRootElem>
+                <sourceRootElem>mcc_generated_files/24C01C</sourceRootElem>
+                <sourceRootElem>mcc_generated_files/TC74</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>default</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
